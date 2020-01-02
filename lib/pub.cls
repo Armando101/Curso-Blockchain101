@@ -1,5 +1,5 @@
 \LoadClass[a4paper,12pt]{article}
-\input{lib/tipreqs.cls}
+\input{/home/armando/Documentos/Cursos/LaTeX/Plantillas/lib/tipreqs.cls}
 
 \RequirePackage{xcolor}
 
@@ -36,7 +36,7 @@
   scale=1,
   opacity=0.3,
   contents={%
-    \includegraphics{img/bg/square}
+    \includegraphics{/home/armando/Documentos/Cursos/LaTeX/Plantillas/img/bg/square}
   }%
 }
 
@@ -69,7 +69,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\includegraphics[scale=0.06]{img/proteco/proteco.png} }
+\fancyhead[L]{\includegraphics[scale=0.06]{/home/armando/Documentos/Cursos/LaTeX/Plantillas/img/proteco/proteco.png} }
 \fancyhead[R]{\ptcTitulo}
 \fancyfoot[C]{\footnotesize PROGRAMA DE TECNOLOGÍA EN CÓMPUTO  }
 \fancyfoot[R]{\footnotesize \thepage}  % Pie derecha

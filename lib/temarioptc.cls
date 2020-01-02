@@ -1,5 +1,5 @@
 \LoadClass{article}
-\input{lib/tipreqs.cls}
+\input{/home/armando/Documentos/Cursos/LaTeX/Plantillas/lib/tipreqs.cls}
 
 \RequirePackage{xcolor}
 
@@ -13,11 +13,11 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\includegraphics[scale=0.25]{img/BAM/BAM-black}} %encabezado izq.
+\fancyhead[L]{\includegraphics[scale=0.25]{/home/armando/Documentos/Cursos/LaTeX/Plantillas/img/BAM/BAM-black}} %encabezado izq.
 \fancyhead[R]{ {\color{colorPrimary}\Huge \mytitle }\\[2mm] {\color{colorSecondary}\LARGE \mysubTitle } \\[2mm] \deliverDate}   % encabezado der.
-\fancyfoot[R]{\includegraphics[scale=0.5]{img/unam/unamazul}}  % Pie der.
+\fancyfoot[R]{\includegraphics[scale=0.5]{/home/armando/Documentos/Cursos/LaTeX/Plantillas/img/unam/unamazul}}  % Pie der.
 %\fancyfoot[L]{\includegraphics[scale=0.07]{img/proteco/image}}  %Pie izq-
-\fancyfoot[L]{\includegraphics[scale=0.5]{img/fi/fiazul}}  %Pie izq-
+\fancyfoot[L]{\includegraphics[scale=0.5]{/home/armando/Documentos/Cursos/LaTeX/Plantillas/img/fi/fiazul}}  %Pie izq-
 
 \fancyfoot[C]{\vspace{-1cm} {\color{colorSecondary}\org}}
 \renewcommand{\footrulewidth}{0.4pt}
